@@ -190,9 +190,10 @@ def normalize_location(loc: str) -> str:
 PLOTLY_TEMPLATE = dict(
     paper_bgcolor='rgba(0,0,0,0)',
     plot_bgcolor='rgba(0,0,0,0)',
-    font=dict(family='Inter, system-ui, -apple-system, sans-serif', size=12, color='#374151'),
+    font=dict(family='Inter, system-ui, -apple-system, sans-serif', size=11, color='#374151'),
     colorway=GREEN_PALETTE,
-    xaxis=dict(gridcolor='#f3f4f6', linecolor='#e5e7eb', tickfont=dict(size=11)),
-    yaxis=dict(gridcolor='#f3f4f6', linecolor='#e5e7eb', tickfont=dict(size=11)),
-    margin=dict(l=60, r=30, t=40, b=50),
+    xaxis=dict(gridcolor='#ecfdf5', linecolor='#d1fae5', tickfont=dict(size=10), title_font=dict(size=11)),
+    yaxis=dict(gridcolor='#ecfdf5', linecolor='#d1fae5', tickfont=dict(size=10), title_font=dict(size=11)),
+    margin=dict(l=48, r=16, t=28, b=44),
+    hoverlabel=dict(bgcolor='#064e3b', font=dict(color='#ffffff', size=12)),
 )
