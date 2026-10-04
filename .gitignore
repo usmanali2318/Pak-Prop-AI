@@ -29,7 +29,6 @@ data/*.json
 !data/.gitkeep
 
 # Trained models (regenerate with model_training.py)
-models/*.pkl
 models/*.joblib
 models/*.h5
 models/*.pt
